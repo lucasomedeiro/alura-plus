@@ -163,6 +163,7 @@ body {
     .container {
         display: block;
         background-image: none;
+        height: 60vh;
     }
 
     .container__imagem {
@@ -184,9 +185,22 @@ body {
 
     .dispositivos__lista {
         display: block;
+        margin: 2em 0;
     }
 
     .rodape__lista {
         display: block;
+    }
+
+    .dispositivos__titulo {
+        margin: 0 1em;
+    }
+
+    .rodape {
+        margin: 6em 2em;
+    }
+
+    .rodape__logo {
+        margin-bottom: 1em;
     }
 }
